@@ -1,0 +1,586 @@
+{
+    "package": {
+        "id": "OpJ8DLgw9pZ",
+        "name": "Package of Drugs Prescriptions Module ",
+        "deleted": false,
+        "description": "",
+        "version": "1.0.1",
+        "dhisVersion": "2.40",
+        "module": {
+            "id": "uKHsTrrFtxr",
+            "name": "Drugs Prescriptions Module",
+            "instance": "https://metadata.eyeseetea.com/mdsync-webinar-40-3/",
+            "department": {
+                "name": "NTD department",
+                "id": "PLq2l5lp0QP"
+            }
+        },
+        "user": {
+            "id": "M5zQapPyTZI",
+            "name": "admin admin"
+        },
+        "created": "2025-03-25T11:26:21.311Z",
+        "lastUpdated": "2025-03-25T11:26:28.872Z",
+        "lastUpdatedBy": {
+            "id": "M5zQapPyTZI",
+            "name": "admin admin"
+        }
+    },
+    "options": [
+        {
+            "id": "agjbCT66a4x",
+            "code": "amoxiciline",
+            "name": "amoxiciline",
+            "created": "2025-03-24T21:55:36.377",
+            "sharing": {
+                "users": {},
+                "external": false,
+                "userGroups": {}
+            },
+            "favorite": false,
+            "favorites": [],
+            "optionSet": {
+                "id": "emXrYGIiDix"
+            },
+            "sortOrder": 1,
+            "displayName": "amoxiciline",
+            "lastUpdated": "2025-03-24T21:55:36.444",
+            "translations": [],
+            "userAccesses": [],
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "amoxiciline",
+            "userGroupAccesses": []
+        },
+        {
+            "id": "YXqaDCrTM8w",
+            "code": "penicillin",
+            "name": "penicillin",
+            "created": "2025-03-24T21:55:59.985",
+            "sharing": {
+                "users": {},
+                "external": false,
+                "userGroups": {}
+            },
+            "favorite": false,
+            "favorites": [],
+            "optionSet": {
+                "id": "emXrYGIiDix"
+            },
+            "sortOrder": 2,
+            "displayName": "penicillin",
+            "lastUpdated": "2025-03-24T21:55:59.994",
+            "translations": [],
+            "userAccesses": [],
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "penicillin",
+            "userGroupAccesses": []
+        }
+    ],
+    "programs": [
+        {
+            "id": "lQK2MeGFshj",
+            "name": "Drug_Prescriptions",
+            "user": {
+                "id": "M5zQapPyTZI",
+                "code": "admin",
+                "name": "admin admin",
+                "username": "admin",
+                "displayName": "admin admin"
+            },
+            "created": "2025-03-24T21:52:18.076",
+            "sharing": {
+                "owner": "M5zQapPyTZI",
+                "users": {},
+                "public": "rw------",
+                "external": false,
+                "userGroups": {}
+            },
+            "version": 0,
+            "favorite": false,
+            "createdBy": {
+                "id": "M5zQapPyTZI",
+                "code": "admin",
+                "name": "admin admin",
+                "username": "admin",
+                "displayName": "admin admin"
+            },
+            "favorites": [],
+            "shortName": "drugs_prescriptions",
+            "userRoles": [],
+            "expiryDays": 0,
+            "accessLevel": "OPEN",
+            "displayName": "Drug_Prescriptions",
+            "lastUpdated": "2025-03-25T10:54:56.288",
+            "programType": "WITHOUT_REGISTRATION",
+            "skipOffline": false,
+            "programRules": [],
+            "publicAccess": "rw------",
+            "registration": false,
+            "translations": [],
+            "userAccesses": [],
+            "lastUpdatedBy": {
+                "id": "M5zQapPyTZI",
+                "code": "admin",
+                "name": "admin admin",
+                "username": "admin",
+                "displayName": "admin admin"
+            },
+            "programStages": [
+                {
+                    "id": "GFvpYpuDSiC"
+                }
+            ],
+            "externalAccess": false,
+            "onlyEnrollOnce": false,
+            "attributeValues": [],
+            "displayFormName": "Drug_Prescriptions",
+            "programSections": [],
+            "displayShortName": "drugs_prescriptions",
+            "organisationUnits": [
+                {
+                    "id": "DVnpk4xiXGJ"
+                },
+                {
+                    "id": "OSqwEtqubH9"
+                }
+            ],
+            "programIndicators": [],
+            "userGroupAccesses": [],
+            "displayIncidentDate": true,
+            "ignoreOverdueEvents": false,
+            "maxTeiCountToReturn": 0,
+            "withoutRegistration": true,
+            "displayFrontPageList": false,
+            "programRuleVariables": [],
+            "notificationTemplates": [],
+            "openDaysAfterCoEndDate": 0,
+            "completeEventsExpiryDays": 0,
+            "selectIncidentDatesInFuture": false,
+            "minAttributesRequiredToSearch": 1,
+            "selectEnrollmentDatesInFuture": false,
+            "programTrackedEntityAttributes": [],
+            "useFirstStageDuringRegistration": false
+        }
+    ],
+    "optionSets": [
+        {
+            "id": "emXrYGIiDix",
+            "name": "Antibiotics",
+            "user": {
+                "id": "M5zQapPyTZI",
+                "code": "admin",
+                "name": "admin admin",
+                "username": "admin",
+                "displayName": "admin admin"
+            },
+            "created": "2025-03-24T21:55:01.328",
+            "options": [
+                {
+                    "id": "agjbCT66a4x"
+                },
+                {
+                    "id": "YXqaDCrTM8w"
+                }
+            ],
+            "sharing": {
+                "owner": "M5zQapPyTZI",
+                "users": {},
+                "public": "rw------",
+                "external": false,
+                "userGroups": {}
+            },
+            "version": 2,
+            "favorite": false,
+            "createdBy": {
+                "id": "M5zQapPyTZI",
+                "code": "admin",
+                "name": "admin admin",
+                "username": "admin",
+                "displayName": "admin admin"
+            },
+            "favorites": [],
+            "valueType": "TEXT",
+            "displayName": "Antibiotics",
+            "lastUpdated": "2025-03-24T21:56:00.327",
+            "publicAccess": "rw------",
+            "translations": [],
+            "userAccesses": [],
+            "lastUpdatedBy": {
+                "id": "M5zQapPyTZI",
+                "code": "admin",
+                "name": "admin admin",
+                "username": "admin",
+                "displayName": "admin admin"
+            },
+            "externalAccess": false,
+            "attributeValues": [],
+            "userGroupAccesses": []
+        }
+    ],
+    "dataElements": [
+        {
+            "id": "ZE9MvXDPHLa",
+            "code": "dose",
+            "name": "Drug_Dose",
+            "user": {
+                "id": "M5zQapPyTZI",
+                "code": "admin",
+                "name": "admin admin",
+                "username": "admin",
+                "displayName": "admin admin"
+            },
+            "created": "2025-03-24T21:50:17.455",
+            "sharing": {
+                "owner": "M5zQapPyTZI",
+                "users": {},
+                "public": "rw------",
+                "external": false,
+                "userGroups": {}
+            },
+            "favorite": false,
+            "createdBy": {
+                "id": "M5zQapPyTZI",
+                "code": "admin",
+                "name": "admin admin",
+                "username": "admin",
+                "displayName": "admin admin"
+            },
+            "favorites": [],
+            "shortName": "dose",
+            "valueType": "NUMBER",
+            "domainType": "TRACKER",
+            "legendSets": [],
+            "displayName": "Drug_Dose",
+            "lastUpdated": "2025-03-24T21:58:22.494",
+            "publicAccess": "rw------",
+            "translations": [],
+            "userAccesses": [],
+            "dimensionItem": "ZE9MvXDPHLa",
+            "lastUpdatedBy": {
+                "id": "M5zQapPyTZI",
+                "code": "admin",
+                "name": "admin admin",
+                "username": "admin",
+                "displayName": "admin admin"
+            },
+            "externalAccess": false,
+            "optionSetValue": false,
+            "aggregationType": "SUM",
+            "attributeValues": [],
+            "dataSetElements": [],
+            "displayFormName": "Drug_Dose",
+            "displayShortName": "dose",
+            "aggregationLevels": [],
+            "dataElementGroups": [],
+            "dimensionItemType": "DATA_ELEMENT",
+            "userGroupAccesses": [],
+            "zeroIsSignificant": false
+        },
+        {
+            "id": "hFo923s3u7A",
+            "code": "drug_name",
+            "name": "Drug_Name",
+            "user": {
+                "id": "M5zQapPyTZI",
+                "code": "admin",
+                "name": "admin admin",
+                "username": "admin",
+                "displayName": "admin admin"
+            },
+            "created": "2025-03-24T21:53:46.004",
+            "sharing": {
+                "owner": "M5zQapPyTZI",
+                "users": {},
+                "public": "rw------",
+                "external": false,
+                "userGroups": {}
+            },
+            "favorite": false,
+            "createdBy": {
+                "id": "M5zQapPyTZI",
+                "code": "admin",
+                "name": "admin admin",
+                "username": "admin",
+                "displayName": "admin admin"
+            },
+            "favorites": [],
+            "optionSet": {
+                "id": "emXrYGIiDix"
+            },
+            "shortName": "drug_name",
+            "valueType": "TEXT",
+            "domainType": "TRACKER",
+            "legendSets": [],
+            "displayName": "Drug_Name",
+            "lastUpdated": "2025-03-24T21:58:29.291",
+            "publicAccess": "rw------",
+            "translations": [],
+            "userAccesses": [],
+            "dimensionItem": "hFo923s3u7A",
+            "lastUpdatedBy": {
+                "id": "M5zQapPyTZI",
+                "code": "admin",
+                "name": "admin admin",
+                "username": "admin",
+                "displayName": "admin admin"
+            },
+            "externalAccess": false,
+            "optionSetValue": true,
+            "aggregationType": "NONE",
+            "attributeValues": [],
+            "dataSetElements": [],
+            "displayFormName": "Drug_Name",
+            "displayShortName": "drug_name",
+            "aggregationLevels": [],
+            "dataElementGroups": [],
+            "dimensionItemType": "DATA_ELEMENT",
+            "userGroupAccesses": [],
+            "zeroIsSignificant": false
+        },
+        {
+            "id": "wIFq9ClIaZQ",
+            "code": "name",
+            "name": "Patient_Name",
+            "user": {
+                "id": "M5zQapPyTZI",
+                "code": "admin",
+                "name": "admin admin",
+                "username": "admin",
+                "displayName": "admin admin"
+            },
+            "created": "2025-03-24T21:50:43.954",
+            "sharing": {
+                "owner": "M5zQapPyTZI",
+                "users": {},
+                "public": "rw------",
+                "external": false,
+                "userGroups": {}
+            },
+            "favorite": false,
+            "createdBy": {
+                "id": "M5zQapPyTZI",
+                "code": "admin",
+                "name": "admin admin",
+                "username": "admin",
+                "displayName": "admin admin"
+            },
+            "favorites": [],
+            "shortName": "name",
+            "valueType": "TEXT",
+            "domainType": "TRACKER",
+            "legendSets": [],
+            "displayName": "Patient_Name",
+            "lastUpdated": "2025-03-24T21:58:36.720",
+            "publicAccess": "rw------",
+            "translations": [],
+            "userAccesses": [],
+            "dimensionItem": "wIFq9ClIaZQ",
+            "lastUpdatedBy": {
+                "id": "M5zQapPyTZI",
+                "code": "admin",
+                "name": "admin admin",
+                "username": "admin",
+                "displayName": "admin admin"
+            },
+            "externalAccess": false,
+            "optionSetValue": false,
+            "aggregationType": "NONE",
+            "attributeValues": [],
+            "dataSetElements": [],
+            "displayFormName": "Patient_Name",
+            "displayShortName": "name",
+            "aggregationLevels": [],
+            "dataElementGroups": [],
+            "dimensionItemType": "DATA_ELEMENT",
+            "userGroupAccesses": [],
+            "zeroIsSignificant": false
+        }
+    ],
+    "programStages": [
+        {
+            "id": "GFvpYpuDSiC",
+            "name": "Drug_Prescriptions",
+            "user": {
+                "id": "M5zQapPyTZI",
+                "code": "admin",
+                "name": "admin admin",
+                "username": "admin",
+                "displayName": "admin admin"
+            },
+            "created": "2025-03-24T21:52:18.072",
+            "program": {
+                "id": "lQK2MeGFshj"
+            },
+            "sharing": {
+                "owner": "M5zQapPyTZI",
+                "users": {},
+                "public": "rw------",
+                "external": false,
+                "userGroups": {}
+            },
+            "favorite": false,
+            "formType": "DEFAULT",
+            "referral": false,
+            "createdBy": {
+                "id": "M5zQapPyTZI",
+                "code": "admin",
+                "name": "admin admin",
+                "username": "admin",
+                "displayName": "admin admin"
+            },
+            "favorites": [],
+            "repeatable": false,
+            "displayName": "Drug_Prescriptions",
+            "hideDueDate": false,
+            "lastUpdated": "2025-03-24T21:59:38.967",
+            "publicAccess": "rw------",
+            "translations": [],
+            "userAccesses": [],
+            "lastUpdatedBy": {
+                "id": "M5zQapPyTZI",
+                "code": "admin",
+                "name": "admin admin",
+                "username": "admin",
+                "displayName": "admin admin"
+            },
+            "blockEntryForm": false,
+            "externalAccess": false,
+            "preGenerateUID": false,
+            "attributeValues": [],
+            "displayFormName": "Drug_Prescriptions",
+            "remindCompleted": false,
+            "minDaysFromStart": 0,
+            "autoGenerateEvent": true,
+            "userGroupAccesses": [],
+            "validationStrategy": "ON_UPDATE_AND_INSERT",
+            "openAfterEnrollment": false,
+            "enableUserAssignment": false,
+            "programStageSections": [],
+            "notificationTemplates": [],
+            "allowGenerateNextVisit": false,
+            "displayGenerateEventBox": true,
+            "programStageDataElements": [
+                {
+                    "id": "qYRqkeHzoBi",
+                    "access": {
+                        "read": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true,
+                        "update": true,
+                        "externalize": true
+                    },
+                    "created": "2025-03-24T21:52:18.072",
+                    "sharing": {
+                        "users": {},
+                        "external": false,
+                        "userGroups": {}
+                    },
+                    "favorite": false,
+                    "favorites": [],
+                    "sortOrder": 1,
+                    "compulsory": false,
+                    "dataElement": {
+                        "id": "ZE9MvXDPHLa"
+                    },
+                    "lastUpdated": "2025-03-24T21:59:38.969",
+                    "programStage": {
+                        "id": "GFvpYpuDSiC"
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "skipAnalytics": false,
+                    "externalAccess": false,
+                    "allowFutureDate": false,
+                    "attributeValues": [],
+                    "displayInReports": false,
+                    "userGroupAccesses": [],
+                    "skipSynchronization": false,
+                    "renderOptionsAsRadio": false,
+                    "allowProvidedElsewhere": false
+                },
+                {
+                    "id": "JfEbr2V2Bkf",
+                    "access": {
+                        "read": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true,
+                        "update": true,
+                        "externalize": true
+                    },
+                    "created": "2025-03-24T21:52:18.072",
+                    "sharing": {
+                        "users": {},
+                        "external": false,
+                        "userGroups": {}
+                    },
+                    "favorite": false,
+                    "favorites": [],
+                    "sortOrder": 2,
+                    "compulsory": false,
+                    "dataElement": {
+                        "id": "wIFq9ClIaZQ"
+                    },
+                    "lastUpdated": "2025-03-24T21:59:38.969",
+                    "programStage": {
+                        "id": "GFvpYpuDSiC"
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "skipAnalytics": false,
+                    "externalAccess": false,
+                    "allowFutureDate": false,
+                    "attributeValues": [],
+                    "displayInReports": false,
+                    "userGroupAccesses": [],
+                    "skipSynchronization": false,
+                    "renderOptionsAsRadio": false,
+                    "allowProvidedElsewhere": false
+                },
+                {
+                    "id": "cS6H64G0yBw",
+                    "access": {
+                        "read": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true,
+                        "update": true,
+                        "externalize": true
+                    },
+                    "created": "2025-03-24T21:59:38.969",
+                    "sharing": {
+                        "users": {},
+                        "external": false,
+                        "userGroups": {}
+                    },
+                    "favorite": false,
+                    "favorites": [],
+                    "sortOrder": 3,
+                    "compulsory": false,
+                    "dataElement": {
+                        "id": "hFo923s3u7A"
+                    },
+                    "lastUpdated": "2025-03-24T21:59:38.969",
+                    "programStage": {
+                        "id": "GFvpYpuDSiC"
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "skipAnalytics": false,
+                    "externalAccess": false,
+                    "allowFutureDate": false,
+                    "attributeValues": [],
+                    "displayInReports": false,
+                    "userGroupAccesses": [],
+                    "skipSynchronization": false,
+                    "renderOptionsAsRadio": false,
+                    "allowProvidedElsewhere": false
+                }
+            ],
+            "generatedByEnrollmentDate": false
+        }
+    ]
+}
