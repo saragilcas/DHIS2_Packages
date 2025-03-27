@@ -1,0 +1,332 @@
+{
+    "package": {
+        "id": "B2lgJwZNlDJ",
+        "name": "Package of Drug Inventory",
+        "deleted": false,
+        "description": "",
+        "version": "1.0.0",
+        "dhisVersion": "2.38",
+        "module": {
+            "id": "fvP7fjHt73y",
+            "name": "Drug Inventory",
+            "instance": "https://metadata.eyeseetea.com/mdsync-webinar-40/",
+            "department": {
+                "name": "Hospitals Managers",
+                "id": "pon5gvc49rI"
+            }
+        },
+        "user": {
+            "id": "M5zQapPyTZI",
+            "name": "admin admin"
+        },
+        "created": "2025-03-27T15:24:30.161Z",
+        "lastUpdated": "2025-03-27T15:24:30.161Z",
+        "lastUpdatedBy": {
+            "id": "M5zQapPyTZI",
+            "name": "admin admin"
+        }
+    },
+    "dataSets": [
+        {
+            "id": "Y9dmjDDYGcG",
+            "name": "Drug Inventory ",
+            "mobile": false,
+            "created": "2025-03-23T19:23:15.404",
+            "version": 7,
+            "favorite": false,
+            "formType": "DEFAULT",
+            "sections": [],
+            "createdBy": {
+                "id": "M5zQapPyTZI",
+                "code": "admin",
+                "name": "admin admin",
+                "username": "admin",
+                "displayName": "admin admin"
+            },
+            "favorites": [],
+            "shortName": "drug_inventory",
+            "expiryDays": 0,
+            "indicators": [],
+            "legendSets": [],
+            "periodType": "Monthly",
+            "timelyDays": 95,
+            "displayName": "Drug Inventory ",
+            "lastUpdated": "2025-03-27T15:21:34.481",
+            "skipOffline": false,
+            "publicAccess": "rw------",
+            "renderAsTabs": false,
+            "translations": [],
+            "dimensionItem": "Y9dmjDDYGcG",
+            "lastUpdatedBy": {
+                "id": "M5zQapPyTZI",
+                "code": "admin",
+                "name": "admin admin",
+                "username": "admin",
+                "displayName": "admin admin"
+            },
+            "externalAccess": false,
+            "attributeValues": [],
+            "dataSetElements": [
+                {
+                    "dataSet": {
+                        "id": "Y9dmjDDYGcG"
+                    },
+                    "dataElement": {
+                        "id": "n1n688iqtmi"
+                    }
+                },
+                {
+                    "dataSet": {
+                        "id": "Y9dmjDDYGcG"
+                    },
+                    "dataElement": {
+                        "id": "hFsrCh13Qcy"
+                    }
+                },
+                {
+                    "dataSet": {
+                        "id": "Y9dmjDDYGcG"
+                    },
+                    "dataElement": {
+                        "id": "KjnPRfLpgy0"
+                    }
+                },
+                {
+                    "dataSet": {
+                        "id": "Y9dmjDDYGcG"
+                    },
+                    "dataElement": {
+                        "id": "BD48w1uBGI2"
+                    }
+                }
+            ],
+            "displayFormName": "Drug Inventory ",
+            "interpretations": [],
+            "dataInputPeriods": [
+                {
+                    "period": {
+                        "id": "202502",
+                        "name": "202502"
+                    }
+                }
+            ],
+            "displayShortName": "drug_inventory",
+            "dimensionItemType": "REPORTING_RATE",
+            "openFuturePeriods": 0,
+            "validCompleteOnly": false,
+            "renderHorizontally": false,
+            "notifyCompletingUser": false,
+            "dataElementDecoration": false,
+            "noValueRequiresComment": false,
+            "fieldCombinationRequired": false,
+            "openPeriodsAfterCoEndDate": 0,
+            "compulsoryFieldsCompleteOnly": false,
+            "compulsoryDataElementOperands": []
+        }
+    ],
+    "dataElements": [
+        {
+            "id": "KjnPRfLpgy0",
+            "code": "amoxicillin",
+            "name": "Amoxicillin",
+            "created": "2025-03-23T19:24:09.781",
+            "favorite": false,
+            "createdBy": {
+                "id": "M5zQapPyTZI",
+                "code": "admin",
+                "name": "admin admin",
+                "username": "admin",
+                "displayName": "admin admin"
+            },
+            "favorites": [],
+            "shortName": "amoxicillin",
+            "valueType": "NUMBER",
+            "domainType": "AGGREGATE",
+            "legendSets": [],
+            "displayName": "Amoxicillin",
+            "lastUpdated": "2025-03-27T15:21:34.475",
+            "publicAccess": "rw------",
+            "translations": [],
+            "dimensionItem": "KjnPRfLpgy0",
+            "lastUpdatedBy": {
+                "id": "M5zQapPyTZI",
+                "code": "admin",
+                "name": "admin admin",
+                "username": "admin",
+                "displayName": "admin admin"
+            },
+            "externalAccess": false,
+            "optionSetValue": false,
+            "aggregationType": "SUM",
+            "attributeValues": [],
+            "dataSetElements": [
+                {
+                    "dataSet": {
+                        "id": "Y9dmjDDYGcG"
+                    },
+                    "dataElement": {
+                        "id": "KjnPRfLpgy0"
+                    }
+                }
+            ],
+            "displayFormName": "Amoxicillin",
+            "displayShortName": "amoxicillin",
+            "aggregationLevels": [],
+            "dataElementGroups": [],
+            "dimensionItemType": "DATA_ELEMENT",
+            "zeroIsSignificant": false
+        },
+        {
+            "id": "BD48w1uBGI2",
+            "code": "Cephalexin",
+            "name": "Cephalexin",
+            "created": "2025-03-25T11:31:26.724",
+            "favorite": false,
+            "createdBy": {
+                "id": "M5zQapPyTZI",
+                "code": "admin",
+                "name": "admin admin",
+                "username": "admin",
+                "displayName": "admin admin"
+            },
+            "favorites": [],
+            "shortName": "Cephalexin",
+            "valueType": "NUMBER",
+            "domainType": "AGGREGATE",
+            "legendSets": [],
+            "displayName": "Cephalexin",
+            "lastUpdated": "2025-03-27T15:21:34.475",
+            "publicAccess": "rw------",
+            "translations": [],
+            "dimensionItem": "BD48w1uBGI2",
+            "lastUpdatedBy": {
+                "id": "M5zQapPyTZI",
+                "code": "admin",
+                "name": "admin admin",
+                "username": "admin",
+                "displayName": "admin admin"
+            },
+            "externalAccess": false,
+            "optionSetValue": false,
+            "aggregationType": "SUM",
+            "attributeValues": [],
+            "dataSetElements": [
+                {
+                    "dataSet": {
+                        "id": "Y9dmjDDYGcG"
+                    },
+                    "dataElement": {
+                        "id": "BD48w1uBGI2"
+                    }
+                }
+            ],
+            "displayFormName": "Cephalexin",
+            "displayShortName": "Cephalexin",
+            "aggregationLevels": [],
+            "dataElementGroups": [],
+            "dimensionItemType": "DATA_ELEMENT",
+            "zeroIsSignificant": false
+        },
+        {
+            "id": "n1n688iqtmi",
+            "code": "doxycycline",
+            "name": "Doxycycline",
+            "created": "2025-03-23T19:25:07.509",
+            "favorite": false,
+            "createdBy": {
+                "id": "M5zQapPyTZI",
+                "code": "admin",
+                "name": "admin admin",
+                "username": "admin",
+                "displayName": "admin admin"
+            },
+            "favorites": [],
+            "shortName": "doxycycline",
+            "valueType": "NUMBER",
+            "domainType": "AGGREGATE",
+            "legendSets": [],
+            "displayName": "Doxycycline",
+            "lastUpdated": "2025-03-27T15:21:34.475",
+            "publicAccess": "rw------",
+            "translations": [],
+            "dimensionItem": "n1n688iqtmi",
+            "lastUpdatedBy": {
+                "id": "M5zQapPyTZI",
+                "code": "admin",
+                "name": "admin admin",
+                "username": "admin",
+                "displayName": "admin admin"
+            },
+            "externalAccess": false,
+            "optionSetValue": false,
+            "aggregationType": "SUM",
+            "attributeValues": [],
+            "dataSetElements": [
+                {
+                    "dataSet": {
+                        "id": "Y9dmjDDYGcG"
+                    },
+                    "dataElement": {
+                        "id": "n1n688iqtmi"
+                    }
+                }
+            ],
+            "displayFormName": "Doxycycline",
+            "displayShortName": "doxycycline",
+            "aggregationLevels": [],
+            "dataElementGroups": [],
+            "dimensionItemType": "DATA_ELEMENT",
+            "zeroIsSignificant": false
+        },
+        {
+            "id": "hFsrCh13Qcy",
+            "name": "Penicilin",
+            "created": "2025-03-23T19:24:40.045",
+            "favorite": false,
+            "createdBy": {
+                "id": "M5zQapPyTZI",
+                "code": "admin",
+                "name": "admin admin",
+                "username": "admin",
+                "displayName": "admin admin"
+            },
+            "favorites": [],
+            "shortName": "penicilin",
+            "valueType": "NUMBER",
+            "domainType": "AGGREGATE",
+            "legendSets": [],
+            "displayName": "Penicilin",
+            "lastUpdated": "2025-03-27T15:21:34.475",
+            "publicAccess": "rw------",
+            "translations": [],
+            "dimensionItem": "hFsrCh13Qcy",
+            "lastUpdatedBy": {
+                "id": "M5zQapPyTZI",
+                "code": "admin",
+                "name": "admin admin",
+                "username": "admin",
+                "displayName": "admin admin"
+            },
+            "externalAccess": false,
+            "optionSetValue": false,
+            "aggregationType": "SUM",
+            "attributeValues": [],
+            "dataSetElements": [
+                {
+                    "dataSet": {
+                        "id": "Y9dmjDDYGcG"
+                    },
+                    "dataElement": {
+                        "id": "hFsrCh13Qcy"
+                    }
+                }
+            ],
+            "displayFormName": "Penicilin",
+            "displayShortName": "penicilin",
+            "aggregationLevels": [],
+            "dataElementGroups": [],
+            "dimensionItemType": "DATA_ELEMENT",
+            "zeroIsSignificant": false
+        }
+    ]
+}
